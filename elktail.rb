@@ -4,7 +4,7 @@ class Elktail < Formula
   desc "Elktail is command line utility for tailing, querying and searching logstash / elasticsearch logs"
   homepage "https://github.com/knes1/elktail"
   url "https://github.com/knes1/elktail/archive/v0.1.2.tar.gz"
-  sha256 "71b7c4479466d34e79c4f2dbd64d91e17ef2cd8d939bd87a2f42979e9ec4bed7"
+  sha256 "4d5a61268f44593e6fca6f85a971358257e2bd6e1a1a0f9d4419962aad3e5515"
 
   depends_on "go" => :build
 
