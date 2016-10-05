@@ -3,8 +3,8 @@ require "language/go"
 class Elktail < Formula
   desc "Elktail is command line utility for tailing, querying and searching logstash / elasticsearch logs"
   homepage "https://github.com/knes1/elktail"
-  url "https://github.com/knes1/elktail/archive/v0.1.4.tar.gz"
-  sha256 "aacb5080fb60d539b9ebf64d3aa95d73832ae9e02068e1f4a5d110a3b37261cd"
+  url "https://github.com/knes1/elktail/archive/v0.1.5.tar.gz"
+  sha256 "8d4f7535dd67e6a1f387acafff712e4a60dc1aecf8a4a4e8139b0ccdf2eb2c83"
 
   depends_on "go" => :build
 
