@@ -8,10 +8,10 @@ class Elktail < Formula
 
   depends_on "go" => :build
 
-#   go_resource "github.com/codegangsta/cli" do
-#     url "https://github.com/codegangsta/cli.git",
-#       :revision => "0302d3914d2a6ad61404584cdae6e6dbc9c03599"
-#   end
+  go_resource "github.com/codegangsta/cli" do
+    url "https://github.com/codegangsta/cli.git",
+      :revision => "0302d3914d2a6ad61404584cdae6e6dbc9c03599"
+  end
 
   go_resource "golang.org/x/crypto" do
     url "https://go.googlesource.com/crypto.git",
@@ -36,11 +36,6 @@ class Elktail < Formula
   go_resource "github.com/pkg/errors" do
     url "https://github.com/pkg/errors.git",
       :revision => "614d223910a179a466c1767a985424175c39b465"
-  end
-  
-  go_resource "github.com/urfave/cli" do
-    url "https://github.com/urfave/cli.git",
-      :revision => "ec731febcc3bc1812f23bddd81e6f0bf8120472e"
   end
   
   def install
