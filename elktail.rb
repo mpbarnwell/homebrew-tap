@@ -27,6 +27,11 @@ class Elktail < Formula
     url "https://github.com/mailru/easyjson.git",
       :revision => "fca00f44f19dad8763e34502718a2bb90d98bdc1"
   end
+  
+  go_resource "github.com/josharian/intern" do
+    url "https://github.com/josharian/intern.git",
+      :revision => "a140101e2404c737ca154f12ac2a9d1cc161aee6"
+  end
 
   def install
     puts buildpath
