@@ -19,7 +19,7 @@ class Elktail < Formula
   end
 
   go_resource "gopkg.in/olivere/elastic.v5" do
-    url "https://gopkg.in/olivere/elastic.v5.git",
+    url "https://github.com/olivere/elastic.git",
       :revision => "423089d8ab13afc03106c217ba1a43d8b8b178c8"
   end
   
@@ -36,6 +36,11 @@ class Elktail < Formula
   go_resource "github.com/pkg/errors" do
     url "https://github.com/pkg/errors.git",
       :revision => "614d223910a179a466c1767a985424175c39b465"
+  end
+  
+  go_resource "golang.org/x/net/context" do
+    url "https://github.com/golang/net.git",
+      :revision => "ff519b6c91021e6316e1df005bc19f266994ddda"
   end
 
   def install
