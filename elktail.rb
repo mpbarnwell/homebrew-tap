@@ -32,6 +32,11 @@ class Elktail < Formula
     url "https://github.com/josharian/intern.git",
       :revision => "a140101e2404c737ca154f12ac2a9d1cc161aee6"
   end
+  
+  go_resource "github.com/pkg/errors" do
+    url "https://github.com/pkg/errors.git",
+      :revision => "614d223910a179a466c1767a985424175c39b465"
+  end
 
   def install
     puts buildpath
