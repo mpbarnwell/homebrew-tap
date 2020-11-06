@@ -37,11 +37,6 @@ class Elktail < Formula
     url "https://github.com/pkg/errors.git",
       :revision => "614d223910a179a466c1767a985424175c39b465"
   end
-  
-#   go_resource "golang.org/x/net/context" do
-#     url "https://go.googlesource.com/net.git",
-#       :revision => "0ed95abb35c445290478a5348a7b38bb154135fd"
-#   end
 
   def install
     puts buildpath
@@ -57,9 +52,6 @@ class Elktail < Formula
     cd gopath/"src/github.com/knes1/elktail" do
       system "go fix"
       system "go install"
-      #puts system("ls -al")
-      #puts system("pwd")
-      #bin.install elktail"
     end
     bin.install gopath/"bin/elktail"
   end
