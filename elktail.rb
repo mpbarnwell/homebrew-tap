@@ -39,7 +39,7 @@ class Elktail < Formula
   end
   
   go_resource "golang.org/x/net/context" do
-    url "https://github.com/golang/net.git",
+    url "https://go.googlesource.com/net.git",
       :revision => "ff519b6c91021e6316e1df005bc19f266994ddda"
   end
 
