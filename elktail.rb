@@ -44,7 +44,7 @@ class Elktail < Formula
     gopath = buildpath/"gopath"
     (gopath/"src/github.com/knes1/elktail").install contents
 
-    ENV["GO111MODULE"] = on
+    ENV["GO111MODULE"] = "on"
     ENV["GOPATH"] = gopath
     ENV.prepend_create_path "PATH", gopath/"bin"
 
