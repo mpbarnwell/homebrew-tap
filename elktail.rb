@@ -18,9 +18,9 @@ class Elktail < Formula
       :revision => "346896d57731cb5670b36c6178fc5519f3225980"
   end
 
-  go_resource "gopkg.in/olivere/elastic.v2" do
-    url "https://gopkg.in/olivere/elastic.v2.git",
-      :revision => "9f744c4a57dd7c636101aef9678f51dddc83b068"
+  go_resource "gopkg.in/olivere/elastic.v5" do
+    url "https://gopkg.in/olivere/elastic.v5.git",
+      :revision => "423089d8ab13afc03106c217ba1a43d8b8b178c8"
   end
 
   def install
