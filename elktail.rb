@@ -22,6 +22,11 @@ class Elktail < Formula
     url "https://gopkg.in/olivere/elastic.v5.git",
       :revision => "423089d8ab13afc03106c217ba1a43d8b8b178c8"
   end
+  
+  go_resource "github.com/mailru/easyjson" do 
+    url "https://github.com/mailru/easyjson.git",
+      :revision => "fca00f44f19dad8763e34502718a2bb90d98bdc1"
+  end
 
   def install
     puts buildpath
